@@ -1,0 +1,93 @@
+div {
+    display: block;
+}
+
+#input {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px 20px;
+    display: flex;
+    padding-inline-end: 300px;
+    padding-inline-start: 400px;
+    position: relative;
+    writing-mode: horizontal-tb;
+
+}
+
+#input[type="search"] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+    font-weight: 10px
+}
+
+/* #input
+{
+    background-color: black;
+    border: none;
+    border-radius: 20px 20px;
+    font-family: inherit;
+    font-size: inherit;
+    width: 500;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%
+} */
+
+.imagetop {
+
+    line-height: 24px;
+    vertical-align: middle;
+    float: right;
+
+}
+
+.img {
+    padding: 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background: #000;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: green;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {
+        background: blue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {
+        background: orange;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {
+        background: pink;
+    }
+}
+
+*/
